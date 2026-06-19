@@ -1,0 +1,27 @@
+.zai/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.secret
+*.secrets
+credentials.json
+service-account.json
+client_secret.json
+
+# Certificate and key files
+*.pem
+*.key
+*.crt
+*.cert
+
+# Common development artifacts
+*.log
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+node_modules/
+.vscode/
+.idea/
